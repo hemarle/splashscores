@@ -1,0 +1,51 @@
+.auth{
+    position: absolute;
+    top: 0%;
+    margin: 0%;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(27, 26, 26, 0.63);
+    
+}
+
+.auth__Card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 60vh;
+  background-color: var(--purple);
+  color: white;
+  z-index: 3;
+  margin-left: 0;
+  padding: 50px 30px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.auth__Title{
+font-size: 1.6rem;
+margin-bottom:20px;
+}
+
+.auth__Form input{
+    margin: 10px 0px;
+    height: 50px;
+    padding: 20px;
+    background-color: var(--transparent);
+    border-radius: 10px;
+}
+
+.auth__Checklist{
+    display: flex;
+    align-items: center;
+}
+.auth__Checklist p{
+    margin-left: 15px;
+}
+
+.auth__Form input[type='submit']{
+    width: 100%;
+    height: auto;
+    background-color: var(--blue);
+}

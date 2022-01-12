@@ -5,8 +5,8 @@ function Auth() {
     <div className="auth">
       <div className="auth__Card">
         <h2 className="auth__Title"> Sign up</h2>
-        <div className="auth__Form">
-          <form>
+       
+          <form className="auth__Form">
             <div className="auth__FormFlex">
               <input type="text" placeholder="email" />
             </div>
@@ -16,13 +16,13 @@ function Auth() {
               </div>
             </div>
             <div className="auth__Checklist">
-              <input type="radio" />
+              <input type="checkbox" />
               <p> Remember me</p>
             </div>
 
             <input type="submit" />
           </form>
-        </div>
+       
       </div>
     </div>
   );

@@ -2,9 +2,14 @@
   --bg-color:#181829;
 --gray: #65656B;
 --blue: #246BFD;
+--purple:#474d9b;
+--transparent:rgba(0,0,0,0.1);
 
 
 }
 body{
   background-color: var(--bg-color);
+}
+.app{
+  position: relative;
 }

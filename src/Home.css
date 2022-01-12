@@ -1,8 +1,10 @@
 .home{
 height: 100vh;
     margin-inline: 10vw;
- margin-top: 64px;
+ padding-top: 64px;
+/* position: relative; */
 }
+
 .home__Image{
     max-width: 400px;
     position: relative;
