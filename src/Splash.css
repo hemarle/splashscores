@@ -1,0 +1,127 @@
+.splash{
+    padding: 20px;
+    color: white;
+}
+
+
+.splash__News{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    max-height: 200px;
+    margin: 40px 0px;
+    border-radius: 20px;
+    
+}
+.splash__NewsLeft{
+    flex: 0.5;
+    padding-left: 20px;
+}
+.splash__NewsLeft p{
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+.splash__NewsRight{
+    flex: 0.5;
+height: 100%;
+width: 100%;
+
+}
+.splash__NewsRight img{
+    height: 100%;
+}
+
+
+.splash__Options{
+display: flex;
+margin-bottom: 20px;
+justify-content: space-between;
+}
+.splash__Option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    width: 100px;
+    background-color: var(--transparent);
+    background-color: tomato;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.splash__Card{
+    margin-top: 20px;
+}
+
+.splash__CardTitle{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 10px;
+
+}
+.splash__CardTitleLeft{
+    display: flex;
+}
+
+.splash__CardDetails{
+    display: flex;
+}
+.splash__CardDetail{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: turquoise;
+    align-items: center;
+    justify-content: space-between;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+
+.league{
+    margin-left: 10px;
+}
+.league h5{
+font-weight: 800;
+font-size: 14px;
+}
+.league p{
+    color: rgba(255, 255, 255, 0.432);
+font-size: 12px;
+}
+
+.teams-icons{
+    display: flex;
+}
+.teams-icons img{
+    margin: 0px 5px;
+  background-color: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.splash__CardDetail h5{
+    font-size: 13px;
+}
+
+.splash__CardDetail p{
+    display: flex;
+    justify-content: space-around;
+font-size: 12px;
+}
+
+
+.scoreRight{
+
+    background-color: tomato;
+    height: 60px;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.splash__CardDetail h4{
+    /* font-size: 22px; */
+}
+
