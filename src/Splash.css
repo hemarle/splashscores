@@ -35,7 +35,7 @@ width: 100%;
 
 .splash__Options{
 display: flex;
-margin-bottom: 20px;
+margin: 50px 0px;
 justify-content: space-between;
 }
 .splash__Option{
