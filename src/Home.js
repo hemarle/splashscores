@@ -1,8 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import Auth from "./Auth";
 import "./Home.css";
 import mbappe from './images/Mbappe.png'
 function Home() {
+  const [authStatus, setAuthStatus]= useState(false)
+  const signFunc=()=>{
+   if (authStatus){
+
+     setAuthStatus(false)
+   }
+   else{
+     setAuthStatus(true)
+   }
+  }
   return (
     <div className="home">
       <div className="home__Image">
@@ -15,11 +25,14 @@ function Home() {
           for what? Let’s get start it!
         </p>
         <div className="home__Auth">
-          <button href="/signin"> Sign In</button>
-          <button href="/signup"> Sign Up</button>
+          <button  onClick={signFunc} href="/signin"> Sign In</button>
+          <button onClick={signFunc} href="/signup"> Sign Up</button>
         </div>
 
-        <Auth/>
+        {
+        authStatus &&  <Auth/>
+          
+          }
       </div>
     </div>
   );
