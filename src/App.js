@@ -6,11 +6,12 @@ import Splash from "./Splash";
 import Standing from "./Standing";
 import Table from "./Table";
 import { BrowserRouter as Routers, Routes, Route } from "react-router-dom";
+import Backend from "./Backend";
 
 function App() {
   return (
     <div className="app">
-      
+      <Backend/>
         <Routes>
           <Route exact path="/" element={<Home />} />
 
