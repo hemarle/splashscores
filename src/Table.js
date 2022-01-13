@@ -1,13 +1,14 @@
 import React from "react";
 import "./Table.css";
+import laligaIcon from './images/laliga.svg'
 function Table() {
   return (
     <div className="table">
       <div className="table__Header">
-        <img src="" alt="" />
+      <img src="" alt="" />
         <h3>Spain</h3>
       </div>
-      <img src="" alt="" />
+        <img src={laligaIcon} alt="" />
       <h2>La Liga</h2>
 
       <div className="table__Teams">
