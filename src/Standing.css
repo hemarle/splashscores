@@ -1,0 +1,58 @@
+.standing{
+padding: 20px 0px 100px;
+}
+
+.standing__Input{
+    display: flex;
+    height: 60px;
+    background-color: rgba(0,0,0, 0.4);
+margin: 0px 20px;
+padding:  20px;
+border-radius: 10px;
+}
+.standing__Input input{
+    background-color: transparent;
+margin-left: 10px;
+width: 100%;
+outline: none;
+}
+
+.standing__Header{
+display: flex;
+align-items: center;
+background-color: tomato;
+width: max-content;
+padding: 10px 20px;
+border-radius: 30px;
+margin: 40px 20px;
+}
+
+.standing .splash__CardTitle{
+    margin: 25px;
+}
+
+.standing__Card {
+  margin: 10px 20px;
+  background-color: rgba(100, 99, 98, 0.397);
+  padding: 20px 10px;
+  border-radius: 20px;
+
+}
+.standing__CardOption {
+  display: flex;
+margin: 10px 0px;
+}
+.standing .team{
+    margin-bottom: 20px;
+}
+.standing__CardName {
+  flex: 0.4;
+}
+.standing__CardInfo {
+  flex: 0.6;
+  display: flex;
+  text-align: center;
+}
+.standing__CardInfo p {
+    flex: 0.2;
+ }

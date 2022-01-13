@@ -1,0 +1,44 @@
+.table {
+  min-width: 100%;
+  padding: 20px 20px 100px;
+
+}
+.table h2, .table h3{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.table__Teams{
+    /* height: 100vh;
+    overflow: scroll; */
+}
+
+.table__Title,
+.table__Team {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.table__TeamLeft {
+  flex: 0.5;
+}
+.table__TeamRight {
+  flex: 0.5;
+  display: flex;
+  width: 100%;
+}
+.table__TeamRight p {
+  flex: 0.2;
+}
+
+.table__Team {
+  margin: 20px 0px;
+  border: none;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+}
+.table__Team:nth-of-type(2n+2){
+    background-color: red;
+}

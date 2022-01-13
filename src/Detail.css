@@ -1,0 +1,49 @@
+.detail {
+  padding: 50px 20px 10px;
+}
+.detail h2 {
+  text-align: center;
+}
+.detail__Teams {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0px;
+}
+.detail__Home img,
+.detail__Away img {
+  background-color: rgba(66, 64, 64, 0.281);
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.detail__Home,
+.detail__Away {
+  text-align: center;
+}
+.detail__Score h4 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+.detail__Options {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0px;
+}
+.detail__Option{
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.detail__Option.active {
+  background-color: tomato;
+border-radius: 20px;
+}
+.detail__MatchDetail li {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
