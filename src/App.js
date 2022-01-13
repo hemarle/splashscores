@@ -19,7 +19,7 @@ function App() {
           <Route path="/standing" element={<Standing />} />
           <Route path="/table" element={<Table />} />
         </Routes>
-        <Navigation />
+        {/* <Navigation /> */}
      
     </div>
   );
